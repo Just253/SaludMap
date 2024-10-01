@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 1.3rem; /* Esto hará que el tamaño de la fuente sea relativo al tamaño de la fuente raíz */
+}
