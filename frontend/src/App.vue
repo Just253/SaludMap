@@ -4,7 +4,7 @@ import BottomMenu from './components/BottomMenu/BottomMenu.vue'
 </script>
 
 <template>
-  <div class="bg-white" style="height: 100vh;">
+  <div class="bg-white text-gray-600" style="height: 100vh;">
     <RouterView/>
   </div>
   <BottomMenu />
