@@ -8,14 +8,14 @@
         <MapIcon class="w-12 h-12 text-white" />
       </router-link>
       
-      <MenuItem to="/list" :icon="ListIcon" label="Lista" />
+      <MenuItem to="/notificaciones" :icon="Bell" label="Notif." />
       <MenuItem to="/settings" :icon="SettingsIcon" label="Config" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { UserIcon, ListIcon, MapIcon, SettingsIcon } from 'lucide-vue-next'
+import { UserIcon, ListIcon, MapIcon, SettingsIcon, Bell } from 'lucide-vue-next'
 import MenuItem from './MenuItem.vue'
 </script>
 
