@@ -83,7 +83,7 @@ const user = ref({
   age: 30,
   dni: "123456789",
   phone: "555-1234",
-  photo: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80",
+  photo: "https://th.bing.com/th?id=OIP.6igsIaw84tRmcO094Gi8ygAAAA&w=312&h=200&c=12&rs=1&o=6&cb=13&pid=13.1",
   reunions: [
     { id: 1, title: "Team Meeting", date: "2023-06-15" },
     { id: 2, title: "Project Review", date: "2023-06-20" },
