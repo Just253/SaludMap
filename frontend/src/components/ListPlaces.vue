@@ -23,8 +23,8 @@ import { usePlacesStore } from '@/stores/places'
 const placesStore = usePlacesStore()
 const router = useRouter()
 
-const selectPlace = (place) => {
-  router.push({ name: 'home', query: { lat: place.lat, lon: place.lon } })
+const selectPlace = (place: Place) => {
+  router.push({ name: 'home', query: { lat: place.lat, lng: place.lng } })
 }
 
 
